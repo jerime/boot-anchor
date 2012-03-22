@@ -1,0 +1,5 @@
+Theme name:    Jerime
+Description:   Twitter Bootstrap.
+Author name:   Jerime Carpenter
+Author site:   http://jerime.info
+License:       
