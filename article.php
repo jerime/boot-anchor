@@ -1,3 +1,11 @@
+	<div class="row-fluid">
+		<div class="span12" id="article-<?php echo article_id(); ?>">
+			<h1><?php echo article_title(); ?></h1>
+
+		</div><!--/.span-->
+	</div><!--/.row-fluid -->
+
+
 <section class="content" id="article-<?php echo article_id(); ?>">
     <h1><?php echo article_title(); ?></h1>
 	

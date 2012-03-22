@@ -1,8 +1,8 @@
-        <div class="wrap">
-            <footer id="bottom">
+            <hr>
+            <footer>
                 <small>&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?>. All rights reserved.</small>
                     
-                <ul role="navigation">
+                <!-- <ul role="navigation">
                     <li><a href="<?php echo rss_url(); ?>">RSS</a></li>
                     <?php if(twitter_account()): ?>
                     <li><a href="<?php echo twitter_url(); ?>">@<?php echo twitter_account(); ?></a></li>
@@ -15,7 +15,7 @@
                     <?php if(is_debug()): ?><a id="debug_toggle" href="#debug">Show database profile</a><?php endif; ?>
                 </ul>
                 
-                <a id="attribution" title="Powered by Anchor CMS" href="//anchorcms.com">Powered by Anchor CMS</a>
+                <a id="attribution" title="Powered by Anchor CMS" href="//anchorcms.com">Powered by Anchor CMS</a> -->
             </footer>
 
             <?php if(is_debug()): ?>
@@ -47,7 +47,7 @@
                 }());
             </script>
             <?php endif; ?>
-        </div><!--/.fluid-container-->
+        </div><!--/.container -->
         <!-- Le javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->

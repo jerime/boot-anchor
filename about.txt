@@ -1,5 +1,5 @@
-Theme name:    Jerime
-Description:   Twitter Bootstrap.
+Theme name:    Boot-Anchor
+Description:   Twitter Bootstrap for Anchor.
 Author name:   Jerime Carpenter
 Author site:   http://jerime.info
 License:       
