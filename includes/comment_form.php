@@ -1,13 +1,14 @@
 <?php if(comments_open()): ?>
     <section class="comments">
     
-        <h1><?php echo total_comments() . pluralise(total_comments(), ' comment'); ?> <a href="#comment" title="Contribute to the discussion!">Add your own</a></h1>
+        <h3>Showing <?php echo total_comments() . pluralise(total_comments(), ' comment'); ?> <a href="#comment" title="Contribute to the discussion!">Add your own</a></h3>
     
         <?php if(has_comments()): ?>
         <ul class="commentlist">
             <?php while(comments()): ?>
             <li class="comment" id="comment-<?php echo comment_id(); ?>">
-                <h2><?php echo comment_name(); ?></h2>
+                <i class="icon-user"></i>
+                <h3><?php echo comment_name(); ?></h3>
                 <time><?php echo relative_time(comment_time()); ?></time> 
                 
                 <div class="content">
